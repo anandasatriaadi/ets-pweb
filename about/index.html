@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/style.css" />
+    <title>ETS Pemrograman Web B</title>
+  </head>
+  <body class="flex flex-col bg-gray-50 mx-8 min-h-screen max-w-5xl mx-auto">
+    <header
+      class="
+        bg-gray-100
+        shadow-lg
+        flex
+        justify-between
+        mb-4
+        p-4
+        rounded-b-2xl
+        sticky
+        top-0
+        z-20
+      "
+    >
+      <h1 class="text-2xl"><strong>Ananda</strong></h1>
+      <ul class="divide-x-2 divide-gray-800 flex">
+        <li class="px-2 flex items-center"><a href="/">Home</a></li>
+        <li class="px-2 flex items-center">
+          <a
+            href="https://drive.google.com/file/d/1AL5Dha2yhGnlfvRW2RmivnBaONO0jwcO/view?usp=sharing"
+            target="_blank"
+            >Download CV</a
+          >
+        </li>
+        <li class="px-2 flex items-center">
+          <a href="/contact">Contact</a>
+        </li>
+        <li class="px-2 flex items-center text-blue-600 cursor-default">
+          <a href="/about">About Me</a>
+        </li>
+      </ul>
+    </header>
+    <div class="grid grid-cols-3 gap-8 mx-auto relative">
+      <div class="col-span-2">
+        <div class="bg-gray-100 rounded-2xl p-6 shadow-lg">
+          <h1 class="mb-4 text-3xl font-bold">About Me</h1>
+          <p>
+            I was born and raised in Denpasar, Bali. Currently I am an
+            undergraduate student at Institut Teknologi Sepuluh Nopember as an
+            Informatics Student. Lately I am interested into Web Development
+            especially in the Front-End side of things. Besides Web Development,
+            I also have and interest into Android Development which I would like
+            to learn deeper into.
+          </p>
+        </div>
+      </div>
+      <div class="mt-6">
+        <div class="sticky top-24">
+          <h2 class="text-3xl font-bold">Social Media</h2>
+          <div class="space-y-4">
+            <a
+              href="https://instagram.com/anandasatriaadi"
+              class="flex space-x-2 hover:bg-gray-100 shadow-lg p-4 rounded-lg"
+              ><box-icon type="logo" name="instagram"></box-icon>
+              <p class="flex">Instagram</p>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/anandasatriaadi/"
+              class="flex space-x-2 hover:bg-gray-100 shadow-lg p-4 rounded-lg"
+              ><box-icon type="logo" name="linkedin"></box-icon>
+              <p class="flex">Linkedin</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-3">
+        <div class="bg-gray-100 rounded-2xl p-6 shadow-lg">
+          <h1 class="mb-4 text-3xl font-bold">My Projects</h1>
+          <div class="grid grid-cols-2 gap-4">
+            <div
+              class="
+                flex flex-col
+                border=2
+                rounded-lg
+                p-4
+                bg-gray-200
+                col-span-2
+                md:col-span-1
+              "
+            >
+              <h4 class="text-lg">Baze Java Game</h4>
+              <p class="my-4 flex-grow">
+                A simple tile based game, which goal is to color all tiles.
+              </p>
+              <div
+                class="rounded-lg"
+                style="
+                  padding-top: 66%;
+                  background-image: url('https://blog-ananda.vercel.app/images/projects/baze_1.png');
+                  background-size: cover;
+                "
+              ></div>
+            </div>
+            <div
+              class="
+                flex flex-col
+                border=2
+                rounded-lg
+                p-4
+                bg-gray-200
+                col-span-2
+                md:col-span-1
+              "
+            >
+              <h4 class="text-lg">POS BumDes Tihingan</h4>
+              <p class="my-4 flex-grow">
+                A Point of Sales system for BumDes Tihingan.
+              </p>
+              <div
+                class="rounded-lg"
+                style="
+                  padding-top: 66%;
+                  background-image: url('https://blog-ananda.vercel.app/images/projects/pos_cover.png');
+                  background-size: cover;
+                "
+              ></div>
+            </div>
+            <div
+              class="
+                flex flex-col
+                border=2
+                rounded-lg
+                p-4
+                bg-gray-200
+                col-span-2
+                md:col-span-1
+              "
+            >
+              <h4 class="text-lg">Hanaka Classic Web Design</h4>
+              <p class="my-4 flex-grow">
+                This project is part of Software Analysis and Planning course
+                final assignments.
+              </p>
+              <div
+                class="rounded-lg"
+                style="
+                  padding-top: 66%;
+                  background-image: url('https://blog-ananda.vercel.app/_next/image?url=%2Fimages%2Fprojects%2Fcover_hanaka.png&w=640&q=75');
+                  background-size: cover;
+                "
+              ></div>
+            </div>
+            <div
+              class="
+                flex flex-col
+                border=2
+                rounded-lg
+                p-4
+                bg-gray-200
+                col-span-2
+                md:col-span-1
+              "
+            >
+              <h4 class="text-lg">The Recipe Android App</h4>
+              <p class="my-4 flex-grow">A static Android app.</p>
+              <div
+                class="rounded-lg"
+                style="
+                  padding-top: 66%;
+                  background-image: url('https://blog-ananda.vercel.app/images/projects/baze_1.png');
+                  background-size: cover;
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="font-bold py-4 flex justify-between">
+      <p>&copy;Ananda Satria | 2021</p>
+      <p>Built with ❤️</p>
+    </footer>
+  </body>
+</html>

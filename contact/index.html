@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/style.css" />
+    <title>ETS Pemrograman Web B</title>
+  </head>
+  <body class="bg-gray-50 mx-8 min-h-screen max-w-5xl mx-auto">
+    <header
+      class="
+        bg-gray-100
+        shadow-lg
+        flex
+        justify-between
+        mb-4
+        p-4
+        rounded-b-2xl
+        sticky
+        top-0
+        z-20
+      "
+    >
+      <h1 class="text-2xl"><strong>Ananda</strong></h1>
+      <ul class="divide-x-2 divide-gray-800 flex">
+        <li class="px-2 flex items-center"><a href="/">Home</a></li>
+        <li class="px-2 flex items-center">
+          <a
+            href="https://drive.google.com/file/d/1AL5Dha2yhGnlfvRW2RmivnBaONO0jwcO/view?usp=sharing"
+            target="_blank"
+            >Download CV</a
+          >
+        </li>
+        <li class="px-2 flex items-center text-blue-600 cursor-default">
+          Contact
+        </li>
+        <li class="px-2 flex items-center"><a href="/about">About Me</a></li>
+      </ul>
+    </header>
+    <div class="max-w-xl m-auto bg-gray-100 rounded-2xl p-6 shadow-lg">
+      <h1 class="text-center pb-6 text-3xl font-bold">Contact Me!</h1>
+      <form>
+        <div class="space-y-6">
+          <div class="grid grid-cols-2 gap-x-4">
+            <div class="flex flex-col space-y-2">
+              <label for="name" class="text-bold font-semibold">Name</label>
+              <input
+                required=""
+                class="border bg-gray-200 py-3 px-3"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Ananda Satria Adi"
+              />
+            </div>
+            <div class="flex flex-col space-y-2">
+              <label for="email" class="text-bold font-semibold">Email</label>
+              <input
+                required=""
+                class="border bg-gray-200 py-3 px-3"
+                type="text"
+                id="email"
+                name="email"
+                placeholder="ananda@gmail.com"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col space-y-2">
+            <label for="subject" class="text-bold font-semibold">Subject</label>
+            <input
+              required=""
+              class="w-full border bg-gray-200 py-3 px-3"
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="New Project Name"
+            />
+          </div>
+          <div class="flex flex-col space-y-2">
+            <label for="message" class="text-bold font-semibold">Message</label>
+            <textarea
+              required=""
+              class="
+                form-textarea
+                w-full
+                bg-gray-200
+                py-4
+                px-3
+                rounded-md
+                border
+              "
+              name="message"
+              id="message"
+              cols="30"
+              rows="4"
+            ></textarea>
+          </div>
+          <div class="flex justify-end">
+            <button
+              class="
+                flex
+                items-center
+                py-3
+                px-6
+                rounded-md
+                text-lg
+                bg-gray-200
+                hover:bg-green-400
+              "
+              type="submit"
+            >
+              <span>Send Email</span><box-icon name="mail-send"></box-icon>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <footer class="font-bold py-4 flex justify-between">
+      <p>&copy;Ananda Satria | 2021</p>
+      <p>Built with ❤️</p>
+    </footer>
+  </body>
+</html>

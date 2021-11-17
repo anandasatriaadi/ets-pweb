@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>ETS Pemrograman Web B</title>
+  </head>
+  <body class="bg-gray-50 mx-8 min-h-screen max-w-5xl mx-auto">
+    <header
+      class="
+        bg-gray-100
+        shadow-lg
+        flex
+        justify-between
+        mb-4
+        p-4
+        rounded-b-2xl
+        sticky
+        top-0
+        z-20
+      "
+    >
+      <h1 class="text-2xl"><strong>Ananda</strong></h1>
+      <ul class="divide-x-2 divide-gray-800 flex">
+        <li class="px-2 flex items-center text-blue-600 cursor-default">
+          Home
+        </li>
+        <li class="px-2 flex items-center">
+          <a
+            href="https://drive.google.com/file/d/1AL5Dha2yhGnlfvRW2RmivnBaONO0jwcO/view?usp=sharing"
+            target="_blank"
+            >Download CV</a
+          >
+        </li>
+        <li class="px-2 flex items-center"><a href="/contact">Contact</a></li>
+        <li class="px-2 flex items-center"><a href="/about">About Me</a></li>
+      </ul>
+    </header>
+    <div class="grid grid-cols-3 gap-8 mb-8">
+      <div class="flex flex-col gap-4 col-span-2">
+        <div class="bg-gray-50 shadow-lg p-8 rounded-2xl">
+          <h2 class="text-2xl mb-2">Overview</h2>
+          <p>
+            Hello! I'm Ananda, an Informatics student at Institut Teknologi
+            Sepuluh Nopember. Currently, I'm interested in Web Development and
+            Mobile Development. I'm a passionate and fast learner who always
+            loves to try and learn new things.
+          </p>
+        </div>
+
+        <!-- Experiences -->
+        <div class="bg-gray-50 shadow-lg p-8 rounded-2xl">
+          <h2 class="text-2xl mb-2">Experiences</h2>
+          <div class="mb-4">
+            <div class="divide-x-2 divide-gray-600 flex">
+              <h3 class="font-bold pr-2">
+                Point of Sales BumDes Desa Tihingan
+              </h3>
+              <p class="pl-2">Full-Stack Developer</p>
+            </div>
+            <p>Jun 2021 - present</p>
+          </div>
+          <div class="mb-4">
+            <div class="divide-x-2 divide-gray-600 flex">
+              <h3 class="font-bold pr-2">TPKH Festival ITS</h3>
+              <p class="pl-2">Branding Division Lead</p>
+            </div>
+            <p>September 2021 - present</p>
+          </div>
+          <div class="mb-4">
+            <div class="divide-x-2 divide-gray-600 flex">
+              <h3 class="font-bold pr-2">INI LHO ITS! 2021</h3>
+              <p class="pl-2">Regional Lead</p>
+            </div>
+            <p>December 2020 - February 2021</p>
+          </div>
+        </div>
+
+        <!-- Techstack -->
+        <div class="bg-gray-50 shadow-lg p-8 rounded-2xl">
+          <h2 class="text-2xl mb-2">Techstack</h2>
+          <p>Here are some tech stacks I've used.</p>
+          <div class="flex justify-center mt-4">
+            <table class="table-fixed w-3/4">
+              <thead class="text-center bg-gray-100 border-2 border-gray-500">
+                <tr>
+                  <td
+                    colspan="2"
+                    class="w-1/2 border border-gray-400 p-2 text-lg font-bold"
+                  >
+                    Skills
+                  </td>
+                </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td class="w-1/2 border border-gray-400 p-2">
+                    <div class="flex align-center justify-center space-x-2">
+                      <box-icon type="logo" name="tailwind-css"></box-icon>
+                      <p>Tailwind CSS</p>
+                    </div>
+                  </td>
+                  <td class="w-1/2 border border-gray-400 p-2">
+                    <div class="flex align-center justify-center space-x-2">
+                      <i class="fab fa-laravel text-2xl text-xs"></i>
+                      <p>Laravel</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="w-1/2 border border-gray-400 p-2">
+                    <div class="flex align-center justify-center space-x-2">
+                      <box-icon type="logo" name="bootstrap"></box-icon>
+                      <p>Bootstrap</p>
+                    </div>
+                  </td>
+                  <td class="w-1/2 border border-gray-400 p-2 align-center">
+                    <div class="flex align-center justify-center space-x-2">
+                      <box-icon type="logo" name="sass"></box-icon>
+                      <p>SASS</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="w-1/2 border border-gray-400 p-2">
+                    <div class="flex align-center justify-center space-x-2">
+                      <box-icon type="logo" name="react"></box-icon>
+                      <p>ReactJS</p>
+                    </div>
+                  </td>
+                  <td class="w-1/2 border border-gray-400 p-2">
+                    <div class="flex align-center justify-center space-x-2">
+                      <box-icon type="logo" name="nodejs"></box-icon>
+                      <p>NodeJS</p>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col relative">
+        <div
+          class="bg-gray-50 shadow-lg p-8 rounded-2xl h-auto sticky top-24 z-10"
+        >
+          <div class="flex justify-center mb-4">
+            <img
+              src="./assets/img/Ananda-Smile.png"
+              alt=""
+              class="rounded-full shadow-lg"
+              width="150"
+            />
+          </div>
+          <div class="divide-y-2 divide-gray-400">
+            <div class="space-y-2 text-center pb-4">
+              <h2 class="text-lg font-bold">Putu Ananda Satria Adi</h2>
+              <p>
+                Informatics Undergraduate Student at Institut Teknologi Sepuluh
+                Nopember
+              </p>
+              <p class="font-bold">Web Developer</p>
+              <p>Denpasar, Bali Indonesia</p>
+            </div>
+            <div class="pt-4 space-y-4">
+              <a
+                href="https://github.com/anandasatriaadi"
+                class="
+                  flex
+                  space-x-2
+                  hover:bg-gray-100
+                  shadow-lg
+                  p-4
+                  rounded-lg
+                "
+                ><box-icon type="logo" name="github"></box-icon>
+                <p class="flex">Github</p>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/anandasatriaadi/"
+                class="
+                  flex
+                  space-x-2
+                  hover:bg-gray-100
+                  shadow-lg
+                  p-4
+                  rounded-lg
+                "
+                ><box-icon type="logo" name="linkedin"></box-icon>
+                <p class="flex">Linkedin</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="font-bold py-4 flex justify-between">
+      <p>&copy;Ananda Satria | 2021</p>
+      <p>Built with ❤️</p>
+    </footer>
+  </body>
+</html>
